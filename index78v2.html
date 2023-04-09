@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script defer srl="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#but1").click(function () {
+            $("#test").hide();
+            });
+            $("#but2").click(function () {
+            $("#test").show();
+            });
+        });
+    </script>
+    </head>
+    <body>
+        <button id="but1">Спрятать четные</button>
+        <button id="but2">Показать четные</button>
+        <table width="800" frame="void" border="10" rules="none" align="center" cellpadding="10">
+            <tr><p>1</p></tr>
+            <tr><p id="test">2</p></tr>
+            <tr><p>3</p></tr>
+            <tr><p id="test">4</p></tr>
+    </body>
+</html>
